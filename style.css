@@ -1,0 +1,451 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html {
+	scroll-behavior: smooth;
+}
+nav{
+	display: block;
+}
+.tm-logo{
+	float: left;
+	border-radius: 20px;
+}
+.tm-header{
+	    height: 72px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 990;
+    text-align: center;
+    background: #12151B;
+    background: rgba(18, 21, 27, 0.5);
+    -moz-transition: background 0.5s ease-in-out;
+    -o-transition: background 0.5s ease-in-out;
+    -webkit-transition: background 0.5s ease-in-out;
+    -ms-transition: background 0.5s ease-in-out;
+    transition: background 0.5s ease-in-out;
+}
+ .tm-header::after{
+ 	content: " ";
+ 	clear: both;
+ 	display: block;
+ 	visibility:none;
+
+ }
+.tm-container{
+	margin-left: 2.63%;
+	margin-right: 2.63%;
+  position: relative;
+  z-index: +3;
+}
+.tm-nav{
+	float: right;
+	padding-right: 0.65%;
+}
+ul#nav li a {
+    display: inline-block;
+    padding: 17px 12px;
+    line-height: 38px;
+    text-decoration: none;
+    color: #c0cdd1;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+a, a:visited {
+    color: #f26522;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.tm-nav ul li{
+	display: inline-block;
+}
+.tm-nav ul li a{
+	font-weight: bold;
+	font-size: 25px;
+}
+.tm-nav ul li a:hover{
+	background-color: rgb(250, 242, 10);
+	color:white;
+}
+.one{
+	background: rgb(31,32,36);
+	padding-top: 0.65%;
+	padding-bottom: 5%;
+	position: sticky;
+	top: 72px;
+
+}
+
+.tm-content{
+	box-sizing: border-box;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	position: relative;
+	z-index: +1;
+	display: inline-block;
+	background-color: white;
+	opacity: 1;
+
+}
+.tm-about{
+ font: 15px/24px "raleway-heavy", sans-serif;
+    letter-spacing: 2.5px;
+        color: black;
+        text-align: center;
+	padding-top: 7.9%;
+	padding-bottom: 10px;
+	
+	 color:  #707273;
+}
+.tm-aboutus{
+	font-family: helvetica;
+  font: 18px/36px "merriweather", sans-serif;
+	color: #707273;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+.tm-project{
+	font: 15px/24px "raleway-heavy", sans-serif;
+    letter-spacing: 2.5px;
+        float: unset;
+  padding-top: 12%;
+  padding-bottom: 10px;
+   color:  #707273;
+   text-align: center;
+}
+.project-writeup{
+  font-family: helvetica;
+  font: 18px/36px "merriweather", sans-serif;
+  color: #707273;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  float: left;
+    width: 45%;
+    padding: 50px;
+    position: relative;
+    left: 3%;
+    text-align: center;
+}
+.tm-blog{
+	padding-top: 120px;
+	padding-bottom: 10px;
+	font-size: 2em;
+	color: rgba(104,106,107,0.7);
+}
+.tm-contact{
+	font: 15px/24px "raleway-heavy", sans-serif;
+    letter-spacing: 2.5px;
+        color: black;
+        text-align: center;
+  padding-top: 7.9%;
+  padding-bottom: 10px;
+  
+   color:  #707273;
+}
+
+.tm-foot{
+  background: rgba(144, 146, 147, 0.7);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.tm-social li{
+	align-content: center;
+	list-style-type: disc;
+	display: inline-block;
+	padding-left: 100px;
+}
+.tm-vision{
+	font: 15px/24px "raleway-heavy", sans-serif;
+    letter-spacing: 2.5px;
+        color: black;
+        float: left;
+  padding-top: 7.9%;
+  padding-bottom: 10px;
+  padding-left: 25%;
+  
+   color:  #707273;
+}
+
+.vision{
+	font-family: helvetica;
+  font: 18px/36px "merriweather", sans-serif;
+  color: #707273;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  float: left;
+    width: 40%;
+    padding: 50px;
+    position: relative;
+    left: 3%;
+    text-align: center;
+}
+
+.tm-mission{
+	font: 15px/24px "raleway-heavy", sans-serif;
+    letter-spacing: 2.5px;
+        color: black;
+        text-align: right;
+  padding-top: 7.9%;
+  padding-bottom: 10px;
+  padding-right:  25%;
+  
+   color:  #707273;
+}
+
+.tm-overview{
+	font-family: helvetica;
+  font: 18px/36px "merriweather", sans-serif;
+  color: #707273;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  float: left;
+    width: 40%;
+    padding: 50px;
+    position: relative;
+    text-align: left;
+    padding-left: 6%;
+}
+.overview{
+  position: relative;
+  top: 400px;
+  right: 35%;
+  color: #707273;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+  float: left;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev{
+  cursor: pointer;
+  position: absolute;
+  left: 12.2%;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+  cursor: pointer;
+  position: absolute;
+  left: 90%;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 20%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+.team-section{
+
+}
+.inner-width{
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px;
+  color: #333;
+  overflow: hidden;
+  text-align: center;
+}
+.team-section h1{
+  font-size: 20px;
+  text-transform: uppercase;
+  display: inline-block;
+  border-bottom: 4px solid;
+  padding-bottom: 10px;
+}
+.pe{
+  float: left;
+  width: calc(100% / 4);
+  overflow: hidden;
+  padding: 40px 0;
+  transition: 0.4s;
+  text-align: center;
+}
+.pe: hover{
+  background: red;
+}
+.pe img{
+  width: 120px;
+  height: 120px;
+}
+.p-name{
+  margin: 16px 0;
+  text-transform: uppercase;
+}
+.p-des{
+  font-style: italic;
+  color: #3498db;
+}
+.p-sm{
+  margin-top: 12px;
+}
+.p-sm a{
+  margin: 0 4px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  transition: 0.4s;
+}
+.p-sm a:hover{
+  transform: scale(1.3);
+}
+.p-sm a i{
+  color: #333;
+  line-height: 30px;
+}
+@media screen and (max-width: 600px){
+  .pe{
+    width: 100%;
+  }
+}
+
+footer{
+  
+  font-size: 13px;
+  line-height: 24px;
+  position: relative;
+  color: #3c4142;
+  
+}
+.row-new{
+  margin-left: 10%;
+  font-family: helvetica;
+  font: 15px/30px "merriweather", sans-serif;
+  color: #707273;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  float: left;
+    
+} 
+.foot{
+  list-style-type: none;
+}
+.foot li a {
+  text-decoration: none;
+  color: #707273;
+  transition: 0.4s;
+}
+.foot li a:hover{
+  color: rgb(250, 242, 10);
+  transform: scale(1.3);
+}
+.loc:hover{
+  transition: 0.4s ease-in-out;
+  transform: scale(1.2);
+}
+.address_two{
+  margin-left: 48%;
+   font-family: helvetica;
+  font: 18px/36px "merriweather", sans-serif;
+  color: #707273;
+}
+.volunteer{
+  position: relative;
+  top: 20px;
+}
+button {
+  padding: 10px 10px 10px 10px;
+  background-color: rgb(250, 242, 10);
+  font-size: 1.5em;
+  margin-left: 17%;
+}
+
+.logos{
+  margin-top: 12px;
+  margin-left: 48%;
+}
+.logos a{
+  margin: 0 4px;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  transition: 0.4s;
+}
+.logos a:hover{
+  transform: scale(1.3);
+}
+.logos a i{
+  color: #333;
+  line-height: 30px;
+}
